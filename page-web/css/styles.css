@@ -1,0 +1,218 @@
+
+div#content div.leftbox a{
+	list-style-type: none;
+	background-color: black;
+	color: white;
+
+}
+
+div#content div.rightbox a:hover{
+	color: black;
+	background-color: white
+}
+
+div#content div.rightbox a{
+	list-style-type: none;
+	background-color: black;
+	color: white;
+}
+
+
+div#content div.centerbox h3{
+	background-color: red;
+	opacity: 80%;
+	margin: 20px;
+}
+
+
+
+
+body{
+	background-color: white;
+}
+
+
+
+div#content div{
+	display: inline-block;
+	width: 48%;
+}
+
+
+
+div#content div.leftbox{
+	background-color: black;
+	color: white;
+	vertical-align: top;
+	font-size: 35px;
+    
+}
+div#content div.rightbox{
+	background-color:black ;
+	color: white;
+	font-size: 35px;
+}
+
+div#content div.rightbox h3{
+	
+}
+
+
+
+div#content div.leftbox div.article{
+	display: table-column;
+}
+
+div#content div.centerbox{
+	width: 90%;
+	background-color: white;
+	color: black;
+	margin: 100px ;
+	vertical-align: top;
+	font-size: 30px;
+
+	}
+
+
+
+
+
+
+
+
+
+section.header img.logo{
+	padding-bottom: 30px;
+	padding-left: 20px;
+	padding-block-end: 15px;
+	padding: 1px;
+}
+
+p.prest{
+	font-size:26px;
+	font-weight: bold;
+	background-color: white;
+}
+
+nav.menu-nav ul li.btn{
+	list-style-type: none;
+	display: inline-block;
+}
+nav.menu-nav ul li.btn a{
+	color: white;
+	text-decoration: none;
+	background-color: black;
+	padding: 10px;
+	font-size: 20px;
+
+}
+nav.menu-nav ul li.btn:hover a{
+	color: black;
+	background-color: white
+}
+
+h3.head{
+	font-size: 30px;
+	font-weight: bold;
+	background-color: black;
+	color: white;
+}
+
+div#content div.leftbox a:hover{
+color: black;
+	background-color: white
+}
+
+
+
+footer{
+	background-color: white;
+	color: black;
+}
+header{
+	background-color: black;
+
+}
+
+/*mod*/
+
+section.item{
+	margin: 50px;
+}
+
+section.item h2.sectiontitre{
+	font-size: 50px;
+	font-family: abril fat face, cursive;
+	font-weight: 100;
+	position: relative;
+}
+
+section.item h2.sectiontitre::before{
+	content: "";
+	position: absolute;
+	background-color: green;
+	width: 50px;
+	height: 7px;
+	bottom: 0;
+}
+
+
+section.item div.best{
+	;
+	min-height: 500px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+section.item div.best a.plant{
+	position: relative;
+	background-size: cover;
+	background-position: center;
+	min-width: 300px;
+	height: 350px;
+	flex: 1;
+}
+
+section.item div.best a.plant1{
+	background-image: url(../../images/1.jpg);
+}
+section.item div.best a.plant2{
+	background-image: url(../../images/2.jpg);
+}
+section.item div.best a.plant3{
+	background-image: url(../../images/3.jpg);
+}
+section.item div.best a.plant4{
+	background-image: url(../../images/4.jpg);
+}
+section.item div.best a.plant div.pd{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: #FFFFFFDF;
+	padding: 5px 20px;
+
+}
+section.item div.best a.plant div.pd p.name{
+	font-size: 22px;
+	color: black;
+	font-weight: 600;
+}
+section.item div.best a.plant div.pd p.name:hover{
+	color: white;
+	background-color: black;
+}
+p.cara{
+	font-size:20px;
+}
+ body a.tele{
+	font-size: 20px;
+	color: white;
+	background-color: black;
+
+}
+ body a.tele{                
+	color: black;
+	background-color: white
+}
